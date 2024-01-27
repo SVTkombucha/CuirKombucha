@@ -1,0 +1,773 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    margin: 0;
+    min-height: 100vh;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    margin: 0;
+    font-size: 1em;
+}
+
+.main-nav {
+    margin-top: 5px;
+
+}
+
+.main-nav a {
+    padding: 10px 90px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.main-nav a {
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    color: #000000;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.imge {
+    width: 200px;
+    height: 200px;
+}
+
+.header {
+    border: 1px solid #a2a2a2;
+    background-color: #fdfd9d;
+
+}
+
+.Titre1 {
+    width: 65%;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    font-size: 1.80em;
+    margin-left: 220px;
+    padding: 2px;
+}
+
+.Box1 {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    width: 63%;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 6px;
+}
+
+.Télécharger {
+    font-weight: bolder;
+    background-color: #eaff8e;
+    padding: 10px;
+    margin-left: 430px;
+    font-size: 1.5em;
+    border-radius: 7px;
+    bottom: 10px;
+    margin-top: 10px;
+}
+
+.T2 {
+    position: relative;
+    bottom: 10px;
+}
+
+.Titre2 {
+    width: 33%;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    font-size: 1.80em;
+    margin-left: 420px;
+    padding: 2px;
+}
+
+.Titre3 {
+    width: 38%;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    font-size: 1.80em;
+    margin-left: 390px;
+    padding: 2px;
+}
+
+.im1 {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    margin-left: 120px;
+    border-radius: 7px;
+
+}
+
+.im2 {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    margin-left: 60px;
+    border-radius: 7px;
+    position: relative;
+    left: 200px;
+}
+
+.im3 {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    margin-left: 120px;
+    border-radius: 7px;
+}
+
+.im4 {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    margin-left: 60px;
+    border-radius: 7px;
+    border-radius: 7px;
+    position: relative;
+    left: 200px;
+}
+
+.im5 {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    margin-left: 120px;
+    border-radius: 7px;
+}
+
+.im6 {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    margin-left: 60px;
+    border-radius: 7px;
+    border-radius: 7px;
+    position: relative;
+    left: 200px;
+
+}
+
+.im7 {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    margin-left: 120px;
+    border-radius: 7px;
+}
+
+.im8 {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    margin-left: 60px;
+    border-radius: 7px;
+    border-radius: 7px;
+    position: relative;
+    left: 200px;
+}
+
+.Titre4 {
+    width: 64%;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    font-size: 1.80em;
+    margin-left: 239px;
+    padding: 2px;
+}
+
+.idée {
+    display: grid;
+    grid-template-columns: auto auto
+}
+
+.fa-regular {
+    font-size: 60px;
+    margin-left: 20px;
+    color: #ffae00;
+    position: relative;
+    top: 20px;
+}
+
+.idéeT {
+    background-color: #eaff8e;
+    width: 24%;
+    text-align: center;
+    position: relative;
+    top: 19px;
+    right: 520px;
+    border-radius: 5px;
+}
+
+.Parag1 {
+    width: 90%;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.Titre5 {
+    width: 48%;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    font-size: 1.80em;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.Parag2 {
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+.Parag3 {
+    width: 51%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.Parag4 {
+    width: 48%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.Titre6 {
+    width: 38%;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    font-size: 1.80em;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.Parag5 {
+    width: 54%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.Parag6 {
+    width: 36%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.Parag7 {
+    width: 66%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.Titre7 {
+    width: 30%;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    font-size: 1.80em;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.Parag8 {
+    width: 66%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.Titre8 {
+    width: 50%;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    font-size: 1.80em;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.Parag9 {
+    width: 66%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.Parag10 {
+    width: 66%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.Titre9 {
+    width: 23%;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    font-size: 1.80em;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.Parag11 {
+    width: 66%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.Titre10 {
+    width: 30%;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    font-size: 1.80em;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.Parag12 {
+    width: 42%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.Titre11 {
+    width: 30%;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    font-size: 1.80em;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.Parag13 {
+    width: 66%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+.Télécharger2 {
+    font-weight: bold;
+    background-color: #eaff8e;
+    padding: 10px;
+    margin-left: 450px;
+    font-size: 1.5em;
+    border-radius: 7px;
+    bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #fdfd9d;
+    margin-bottom: -20px;
+}
+
+
+.social {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social a {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid beige;
+    width: 25px;
+    border-radius: 8px;
+    color: black;
+
+}
+
+.social a:hover {
+    background-color: antiquewhite;
+}
+
+.footer ul {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.footer ul li a:hover {
+    color: skyblue;
+}
+
+
+.copy-right {
+    text-align: center;
+    padding-bottom: 30px;
+    color: black;
+}
+
+@media (min-width: 769px) {
+
+    .header,
+    .main-nav {
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+
+        .header {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1150px;
+        }
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width:1142px) {
+    .main-nav a {
+        padding: 10px 50px;
+    }
+}
+
+@media (max-width:854px) {
+    .main-nav a {
+        padding: 10px 30px;
+    }
+
+
+
+}
+
+
+
+
+
+@media (max-width:769px) {
+    .imge {
+        position: relative;
+        left: 280px;
+    }
+}
+
+
+@media (max-width:375px) {
+    .imge {
+        position: relative;
+        left: 90px;
+    }
+
+}
+
+@media (max-width:414px) {
+    .imge {
+        position: relative;
+        left: 90px;
+    }
+
+}
+
+@media (max-width:390px) {
+    .header {
+        position: relative;
+        left: 15px;
+        width: 100%;
+        margin: 0px;
+    }
+
+
+    .footer {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:430px) {
+    .imge {
+        position: relative;
+        left: 110px;
+    }
+
+
+}
+
+@media (max-width:450px) {
+    .logo {
+        margin-right: 50xp;
+    }
+
+    .header {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width:1041px) {
+    .Titre1 {
+        width: 81%;
+    }
+
+    .Titre2 {
+        width: 42%;
+    }
+
+    .Titre3 {
+        width: 47%;
+    }
+
+    .im1 {
+        margin-left: 40px;
+    }
+
+    .im3 {
+        margin-left: 40px;
+
+    }
+
+    .im5 {
+        margin-left: 40px;
+
+    }
+
+    .im7 {
+        margin-left: 40px;
+
+    }
+
+    .Télécharger {
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width:360px) {
+    .header {
+        margin-left: 80px;
+    }
+
+    .Titre1 {
+        width: 350px;
+        margin-left: 10px;
+    }
+
+    .Télécharger {
+        margin-left: 00px;
+        width: 400px;
+        position: relative;
+        left: 140px;
+        top: 10px;
+    }
+
+    .Titre2 {
+        width: 450px;
+        margin-left: 10px;
+    }
+
+    .Titre3 {
+        width: 450px;
+        margin-left: 10px;
+
+    }
+
+    .im2 {
+        position: relative;
+        left: 1px;
+    }
+
+    .im4 {
+        position: relative;
+        left: 1px;
+    }
+
+    .im6 {
+        position: relative;
+        left: 1px;
+    }
+
+    .im8 {
+        position: relative;
+        left: 1px;
+    }
+
+    .Titre4 {
+        margin-left: 0px;
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .Titre5 {
+        width: 80%;
+    }
+
+    .Parag2 {
+        width: 80%;
+        position: relative;
+        left: 10px;
+    }
+
+    .Parag3 {
+        width: 80%;
+        position: relative;
+        left: 10px;
+    }
+
+    .Parag4 {
+        width: 80%;
+        position: relative;
+        left: 10px;
+    }
+
+    .Titre6 {
+        width: 80%;
+
+    }
+
+    .Parag5 {
+        width: 80%;
+        position: relative;
+        left: 10px;
+    }
+
+    .Parag6 {
+        width: 80%;
+        position: relative;
+        left: 10px;
+    }
+
+    .Parag7 {
+        width: 80%;
+        position: relative;
+        left: 10px;
+    }
+
+    .Titre7 {
+        width: 110%;
+    }
+
+    .Parag8 {
+        width: 80%;
+        position: relative;
+        left: 10px;
+    }
+
+    .Titre8 {
+        width: 110%;
+
+    }
+
+    .Parag9 {
+        width: 80%;
+        position: relative;
+        left: 10px;
+    }
+
+    .Parag10 {
+        width: 80%;
+        position: relative;
+        left: 10px;
+    }
+
+    .Titre9 {
+        width: 80%;
+
+    }
+
+    .Parag11 {
+        width: 80%;
+        position: relative;
+        left: 10px;
+    }
+
+    .Titre10 {
+        width: 80%;
+
+    }
+
+    .Parag12 {
+        width: 80%;
+        position: relative;
+        left: 10px;
+    }
+
+    .Titre11 {
+        width: 110%;
+    }
+
+    .Parag13 {
+        width: 80%;
+        position: relative;
+        left: 10px;
+    }
+
+    .Télécharger2 {
+        font-weight: bolder;
+        background-color: #eaff8e;
+        padding: 10px;
+        font-size: 1.5em;
+        border-radius: 7px;
+        bottom: 10px;
+        margin-left: 0px;
+        position: relative;
+        left: 20px;
+    }
+
+}
